@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&family=Roboto:wght@400;700&display=swap");
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #f0f8ff;
+}
+
+.App {
+  text-align: center;
+  padding: 20px;
+}
+
+h1 {
+  font-family: "Roboto", sans-serif;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+.form-container {
+  margin: 20px auto;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.input-field {
+  padding: 8px 12px;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  width: 200px;
+}
+
+.generate-button {
+  padding: 10px 20px;
+  background-image: linear-gradient(to right, #6a11cb 0%, #2575fc 100%);
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.generate-button:hover {
+  opacity: 0.9;
+  transform: scale(1.05);
+}
+
+.output {
+  text-align: left;
+  margin: 0 auto;
+  max-width: 600px;
+}
+
+.output p {
+  border-left: 4px solid #6a11cb;
+  padding-left: 8px;
+  margin-top: 10px;
+  font-size: 1.1em;
+}
+
+.paragraph-number {
+  font-weight: bold;
+  color: #6a11cb;
+}
+
+.paragraph-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.copy-button {
+  padding: 5px 10px;
+  margin-left: 10px;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  background-image: linear-gradient(to right, #6a11cb 0%, #2575fc 100%);
+  transition: background-image 0.3s ease;
+}
+
+.copy-button:hover {
+  background-image: linear-gradient(to left, #6a11cb 0%, #2575fc 100%);
+}
